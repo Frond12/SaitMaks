@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    background-color: #FFFF;
+}
+.wrapper{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.head{
+    display: flex;
+    height: 75px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.stranizi{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 15px;
+text-transform: uppercase;
+padding-left: 30px;
+padding-right: 30px;
+color: black
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.block_head{
+    width: 100%;
+
+}
+
+.Zagolovok{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+
+
+.p{
+    display: flex;
+    justify-content: left;  
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 400px;
+    line-height: 1.6;
+}
+p{
+    padding: 5px;
+}
+h{
+    margin: 25px;
+}
+.Print{
+    color: #3F76A9;
+}
+.Shema{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.center_sait{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 100px 0;
+}
+.Left__text{
+display: flex;
+flex-direction: column;
+width: 756px;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+
+}
+.Center{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 756px;
+font-size: 14px;
+}
+.Right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 756px;
+    font-size: 14px;
+    margin: 20px;
+}
+.Left{
+    width: 14px;
+}
+
+.p2{
+    display: flex;
+    justify-content: left;  
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 400px;
+}
+
+.next_center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px 0px 40px 0;
+}
+
+
+
+.ProfModel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 756px;
+    font-size: 14px;
+    padding-left: 170px;
+}
+.Programmer{
+    max-width: 250px;
+}
+.Programmer>img{
+    width: 100%;
+}
+.next_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 756px;
+    font-size: 14px;
+    padding-left: 0px;
+    line-height: 1.6;
+}
+.next_right>p{
+    margin: 10px 0px 10px 0px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color: #010005;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+}
+
+.padding-footer{
+    padding-top: 5px;
+}
+
+.logo-2{
+    display: flex;
+    justify-content: left;
+}
+
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact_information{
+    color: #ffff;
+}
+
+.Galki{
+    list-style: none;
+    line-height: 1.6;
+}
+.Galki li{
+    position: relative;
+}
+
+.Galki li::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: url("Img/Galka1.svg") no-repeat;
+    display: inline-block;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    left:-20px;
+}
+    
+
+.scroll{
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#F6F6F8;
+    justify-content: space-between;
+}
+
+.scroll_img{
+    width: 230px;
+}
